@@ -6,6 +6,9 @@
   "repository": "https://github.com/tommilligan/what-color-is",
   "author": "Tom Milligan",
   "license": "Apache-2.0",
+  "bin": {
+    "what-color-is": "./src/index.js"
+  },
   "dependencies": {
     "commander": "^2.9.0",
     "dotenv-safe": "^4.0.4",
