@@ -1,0 +1,22 @@
+{
+  "name": "what-color-is",
+  "version": "0.0.1",
+  "description": "Look up colors from a terminal using get-string-colors and terminal-kit",
+  "main": "index.js",
+  "repository": "https://github.com/tommilligan/what-color-is",
+  "author": "Tom Milligan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dotenv-safe": "^4.0.4",
+    "what-color-is": "^0.0.1",
+    "terminal-kit": "^1.8.12"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
+  }
+}
