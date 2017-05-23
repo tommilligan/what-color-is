@@ -1,7 +1,7 @@
 {
   "name": "what-color-is",
   "version": "0.0.1",
-  "description": "Look up colors from a terminal using get-string-colors and terminal-kit",
+  "description": "Look up colors at the command line using get-string-colors and terminal-kit",
   "main": "index.js",
   "repository": "https://github.com/tommilligan/what-color-is",
   "author": "Tom Milligan",
@@ -9,7 +9,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "dotenv-safe": "^4.0.4",
-    "what-color-is": "^0.0.1",
+    "get-string-colors": "^0.0.1",
     "terminal-kit": "^1.8.12"
   },
   "devDependencies": {
