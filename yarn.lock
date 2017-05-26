@@ -268,7 +268,7 @@ data-uri-to-buffer@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-0.0.3.tgz#18ae979a6a0ca994b0625853916d2662bbae0b1a"
 
-debug@^2.1.1:
+debug@^2.1.1, debug@^2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -308,7 +308,11 @@ dom-serializer@0, dom-serializer@~0.1.0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-domelementtype@1, domelementtype@~1.1.1:
+domelementtype@1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.3.0.tgz#b17aed82e8ab59e52dd9c19b1756e0fc187204c2"
+
+domelementtype@~1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
 
@@ -608,10 +612,11 @@ get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
 
-get-string-colors@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/get-string-colors/-/get-string-colors-0.0.1.tgz#94989a6e5f292ff33366ef9669bb55112da52eb4"
+get-string-colors@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/get-string-colors/-/get-string-colors-0.0.3.tgz#f95a116e137c3dfb4535788e5a939e5b7062462b"
   dependencies:
+    debug "^2.6.8"
     get-image-colors "^1.8.1"
     google-images "^2.1.0"
     got "^6.7.1"

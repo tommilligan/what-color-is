@@ -16,9 +16,9 @@ program
     .parse(process.argv);
 
 term.dim.italic("Searching...\n");
-var getStringColors = new GetStringColors(process.env.GOOGLE_CSE_ID, process.env.GOOGLE_API_KEY);
-getStringColors.getStringColors(query).then(colors => {
-    primeColor = colors[0];
+var getStringColors = GetStringColors(process.env.GOOGLE_CSE_ID, process.env.GOOGLE_API_KEY);
+getStringColors(query).then(colors => {
+    var primeColor = colors[0];
     term.bold.colorRgb(...primeColor.rgb(), `${query}: ${primeColor.hex()}\n`);
-})
+});
 
