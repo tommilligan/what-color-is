@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 
+var path = require("path");
+
 var program = require("commander");
 var term = require("terminal-kit").terminal;
-var GetStringColors = require("get-string-colors")
+var GetStringColors = require("get-string-colors");
 
-require("dotenv-safe").load();
+require("dotenv-safe").load({
+    path: path.join(__dirname, ".env"),
+    sample: path.join(__dirname, ".env.example")
+});
 var query = null;
 
 program

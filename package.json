@@ -7,7 +7,7 @@
   "author": "Tom Milligan",
   "license": "Apache-2.0",
   "bin": {
-    "what-color-is": "./src/index.js"
+    "what-color-is": "./index.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
