@@ -16,7 +16,7 @@ Look up colors from a terminal using [get-string-colors](https://www.npmjs.com/p
 
 ## Installation
 
-Install from `npmjs.org`
+Install globally uing yarn:
 ```
 yarn global add what-color-is
 ```
@@ -26,16 +26,16 @@ yarn global add what-color-is
 
 To interact with Google services, you will need to create a new [Custom Search Engine (CSE)](https://cse.google.com/cse/manage/all) and appropriate [API Key](https://console.developers.google.com/apis/dashboard).
 
-Pass these to `what-color-is` as environment variables. Set these:
-    * manually at the command line
-    * in your `.bashrc` or equivalent
-    * by adding a `.env` file alongside the shipped `.env.example` file (for global install, found at `/usr/lib/node_modules/what-color-is/`)
-
+`what-color-si` will look for these in a [`.env` file](https://www.npmjs.com/package/dotenv#usage) alongside the shipped `.env.example`. This is normally found at:
+* `~/.config/yarn/global/node_modules/what-color-is/`
+* `/usr/local/share/.config/yarn/global/node_modules/what-color-is/`
 ```
 # .env
 GOOGLE_CSE_ID=01234567890123456789:a1b2c3d4e5f
 GOOGLE_API_KEY=ABCDEFGHIJKLMNOPQRSTUVW-xyz0123456789
 ```
+
+You can also manage these credentials by exporting them in your `.bashrc` or terminal session.
 
 
 ## Use
