@@ -4,7 +4,7 @@ node_js:
 install:
   - yarn install
 script:
-  - echo "TODO: testing!"
+  - echo "Nothing to see here!"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 deploy:
