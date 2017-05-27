@@ -1,6 +1,6 @@
 {
   "name": "what-color-is",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Look up colors at the command line using get-string-colors and terminal-kit",
   "main": "index.js",
   "repository": "https://github.com/tommilligan/what-color-is",
