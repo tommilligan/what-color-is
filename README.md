@@ -56,3 +56,7 @@ Please ensure PRs are accompanied by comments and tests.
 npm run test
 ```
 
+## Notes
+
+Shout out to [ttystudio](https://github.com/chjj/ttystudio) for painless terminal recording!
+
